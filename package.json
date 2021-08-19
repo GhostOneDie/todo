@@ -1,5 +1,5 @@
 {
-  "homepage": "http://ghostonedie.github.io/todo",
+  "homepage": "http://ghostonedie.github.io/todo/",
   "name": "1",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm start",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
